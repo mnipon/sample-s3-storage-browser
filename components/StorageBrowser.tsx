@@ -2,7 +2,7 @@ import React from 'react';
 import { createAmplifyAuthAdapter, createStorageBrowser } from '@aws-amplify/ui-react-storage/browser';
 import '@aws-amplify/ui-react-storage/styles.css';
 import { Amplify } from 'aws-amplify';
-import config from '../amplify-configs.json';
+import config from './aws-configs.json';
 
 // Configure Amplify using the imported configuration
 Amplify.configure(config);
